@@ -50,7 +50,7 @@ class Main extends React.Component {
                     </label>
                     <input type="submit" value="Submit" onClick={this.handleSubmit} className="button expanded hollow"/>
                 </form>
-                {this.state.url && <a href={this.state.url} target="blank">Artist</a>}
+                {this.state.url && <a href={this.state.url} target="blank"><h3 className="text-center">Artist</h3></a>}
                 
                 {this.props.children}
             </div>
