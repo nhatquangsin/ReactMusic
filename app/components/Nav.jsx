@@ -13,7 +13,7 @@ var Nav = () => {
                         <IndexLink to="/" activeClassName="active-link">Music</IndexLink>
                     </li>
                     <li>
-                        <Link to="/" activeClassName="active-link">About</Link>
+                        <Link to="/about" activeClassName="active-link">About</Link>
                     </li>
                 </ul>
             </div>
