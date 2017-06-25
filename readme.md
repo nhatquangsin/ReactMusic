@@ -1,1 +1,1 @@
-React Boilerplate
+React Music
